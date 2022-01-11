@@ -4,8 +4,17 @@
   "description": "npm学习",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
   },
   "author": "zw",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.178",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
