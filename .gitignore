@@ -14,4 +14,3 @@ target/
 
 ### webpack ###
 node_modules/
-*.lock
